@@ -1,7 +1,4 @@
-import '../styles/globals.css'
+import 'styles/index.scss'
+import MainAppContainer from 'app/main-app/components/MainAppContainer'
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
-}
-
-export default MyApp
+export default MainAppContainer
